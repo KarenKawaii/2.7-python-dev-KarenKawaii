@@ -60,3 +60,16 @@ print "3 | 2 =", OR
 XOR = 3 ^ 2
 print "Returns 1 if one of the operandos is 1 and the other is not."
 print "3 ^ 2 =", XOR
+
+# Not ~ operator
+NOT = ~3
+print "If the operando is 0 changes to 1, if is 1 changes to 0."
+print "~3 =", NOT
+
+# Displacement operators << and >>
+DISPLACELEFT = 3 << 1
+print "Displace the bits n positions to the left."
+print "3 << 1 =", DISPLACELEFT
+DISPLACERIGHT = 3 >> 1
+print "Displace the bits n positions to the right side."
+print "3 >> 1 =", DISPLACERIGHT
